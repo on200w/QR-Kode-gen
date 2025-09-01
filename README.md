@@ -36,7 +36,7 @@ cd &lt;repo-navn&gt;</code></pre>
     <pre><code>pip install pillow qrcode</code></pre>
   </li>
   <li><strong>Kjør programmet</strong>:
-    <pre><code>python qr_generator.py</code></pre>
+    <pre><code>python QR-Kode gen.py</code></pre>
   </li>
   <li><strong>Bruk</strong>:
     <ul>
@@ -50,24 +50,4 @@ cd &lt;repo-navn&gt;</code></pre>
 
 <hr>
 
-<h2>🖼 Skjermbilde</h2>
-<p>
-  <em>Legg til et skjermbilde her:</em><br>
-  <img src="screenshot.png" alt="QR-kode Generator skjermbilde" width="400">
-</p>
 
-<hr>
-
-<h2>📜 Lisens</h2>
-<p>
-  Dette prosjektet er lisensiert under <strong>MIT-lisensen</strong> – se <a href="LICENSE">LICENSE</a> for detaljer.
-</p>
-
-<hr>
-
-<h2>💡 Fremtidige forbedringer</h2>
-<ul>
-  <li>Mulighet for å legge til logo i QR-koden.</li>
-  <li>Støtte for flere filformater (SVG, JPG).</li>
-  <li>Mulighet for å skanne QR-koder direkte i appen.</li>
-</ul>
