@@ -1,57 +1,73 @@
-📷 QR-kode Generator (Python + Tkinter)
-En enkel, brukervennlig QR-kode generator laget i Python med Tkinter for GUI og qrcode-biblioteket for generering av QR-koder. Programmet lar deg skrive inn en lenke, velge forgrunns- og bakgrunnsfarge, forhåndsvise QR-koden og lagre den som PNG.
+<h1 align="center">📷 QR-kode Generator</h1>
 
-✨ Funksjoner
-🖊 Skriv inn lenke – Generer QR-kode fra hvilken som helst URL eller tekst.
+<p align="center">
+  <em>En enkel og brukervennlig QR-kode generator laget i Python med Tkinter</em>
+</p>
 
-🎨 Velg farger – Tilpass forgrunns- og bakgrunnsfarge.
+<hr>
 
-👀 Forhåndsvisning – Se QR-koden før du lagrer.
+<h2>✨ Funksjoner</h2>
+<ul>
+  <li>🖊 <strong>Skriv inn lenke</strong> – Generer QR-kode fra hvilken som helst URL eller tekst.</li>
+  <li>🎨 <strong>Velg farger</strong> – Tilpass forgrunns- og bakgrunnsfarge.</li>
+  <li>👀 <strong>Forhåndsvisning</strong> – Se QR-koden før du lagrer.</li>
+  <li>💾 <strong>Lagre som PNG</strong> – Eksporter QR-koden i høy kvalitet.</li>
+</ul>
 
-💾 Lagre som PNG – Eksporter QR-koden i høy kvalitet.
+<hr>
 
-📦 Krav
-For å kjøre programmet trenger du:
+<h2>📦 Krav</h2>
+<ul>
+  <li>Python 3.x</li>
+  <li>Biblioteker:
+    <pre><code>pip install pillow qrcode</code></pre>
+  </li>
+</ul>
 
-Python 3.x
+<hr>
 
-Følgende Python-pakker:
+<h2>🚀 Bruk</h2>
+<ol>
+  <li><strong>Klon repoet</strong> eller last ned filen:
+    <pre><code>git clone https://github.com/&lt;brukernavn&gt;/&lt;repo-navn&gt;.git
+cd &lt;repo-navn&gt;</code></pre>
+  </li>
+  <li><strong>Installer avhengigheter</strong>:
+    <pre><code>pip install pillow qrcode</code></pre>
+  </li>
+  <li><strong>Kjør programmet</strong>:
+    <pre><code>python qr_generator.py</code></pre>
+  </li>
+  <li><strong>Bruk</strong>:
+    <ul>
+      <li>Skriv inn lenken i tekstfeltet.</li>
+      <li>Velg forgrunns- og bakgrunnsfarge.</li>
+      <li>Klikk <em>"Generer QR-kode"</em> for forhåndsvisning.</li>
+      <li>Klikk <em>"Lagre QR-kode"</em> for å lagre som PNG.</li>
+    </ul>
+  </li>
+</ol>
 
-bash
-pip install pillow qrcode
-🚀 Bruk
-Klon repoet eller last ned filen:
+<hr>
 
-bash
-git clone https://github.com/<brukernavn>/<repo-navn>.git
-cd <repo-navn>
-Installer avhengigheter:
+<h2>🖼 Skjermbilde</h2>
+<p>
+  <em>Legg til et skjermbilde her:</em><br>
+  <img src="screenshot.png" alt="QR-kode Generator skjermbilde" width="400">
+</p>
 
-bash
-pip install pillow qrcode
-Kjør programmet:
+<hr>
 
-bash
-python qr_generator.py
-Slik fungerer det:
+<h2>📜 Lisens</h2>
+<p>
+  Dette prosjektet er lisensiert under <strong>MIT-lisensen</strong> – se <a href="LICENSE">LICENSE</a> for detaljer.
+</p>
 
-Skriv inn lenken i tekstfeltet.
+<hr>
 
-Velg forgrunns- og bakgrunnsfarge.
-
-Klikk "Generer QR-kode" for å se forhåndsvisningen.
-
-Klikk "Lagre QR-kode" for å lagre som PNG.
-
-🖼 Skjermbilde (eksempel)
-(Legg til et skjermbilde her når du har lastet det opp)
-
-📜 Lisens
-Dette prosjektet er lisensiert under MIT-lisensen – se LICENSE for detaljer.
-
-💡 Fremtidige forbedringer
-Mulighet for å generere QR-koder med logo i midten.
-
-Støtte for flere filformater (SVG, JPG).
-
-Mulighet for å skanne QR-koder direkte i appen.
+<h2>💡 Fremtidige forbedringer</h2>
+<ul>
+  <li>Mulighet for å legge til logo i QR-koden.</li>
+  <li>Støtte for flere filformater (SVG, JPG).</li>
+  <li>Mulighet for å skanne QR-koder direkte i appen.</li>
+</ul>
