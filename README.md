@@ -54,7 +54,7 @@ cd &lt;repo-navn&gt;</code></pre>
 
 <h2>🖼 Skjermbilde</h2>
 <p align="center">
-  <img src="https://i.postimg.cc/sgkWcjh1/image.png" alt="QR-kode Generator skjermbilde" width="500">
+  <img src="https://i.postimg.cc/bN2NRQHH/image.png" alt="QR-kode Generator skjermbilde" width="500">
 </p>
 
 <hr>
