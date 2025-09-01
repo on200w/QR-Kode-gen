@@ -1,7 +1,7 @@
 <h1 align="center">📷 QR-kode Generator</h1>
 
 <p align="center">
-  <em>En enkel og brukervennlig QR-kode generator laget i Python med Tkinter</em>
+  <em>En moderne QR-kode generator i Python med Tkinter – nå med logo-støtte og flere filformater</em>
 </p>
 
 <hr>
@@ -10,8 +10,9 @@
 <ul>
   <li>🖊 <strong>Skriv inn lenke</strong> – Generer QR-kode fra hvilken som helst URL eller tekst.</li>
   <li>🎨 <strong>Velg farger</strong> – Tilpass forgrunns- og bakgrunnsfarge.</li>
+  <li>🖼 <strong>Legg til logo</strong> – Plasser en valgfri logo i midten av QR-koden.</li>
+  <li>📂 <strong>Flere filformater</strong> – Lagre som PNG, JPG eller SVG.</li>
   <li>👀 <strong>Forhåndsvisning</strong> – Se QR-koden før du lagrer.</li>
-  <li>💾 <strong>Lagre som PNG</strong> – Eksporter QR-koden i høy kvalitet.</li>
 </ul>
 
 <hr>
@@ -36,18 +37,39 @@ cd &lt;repo-navn&gt;</code></pre>
     <pre><code>pip install pillow qrcode</code></pre>
   </li>
   <li><strong>Kjør programmet</strong>:
-    <pre><code>python QR-Kode gen.py</code></pre>
+    <pre><code>python qr_generator.py</code></pre>
   </li>
   <li><strong>Bruk</strong>:
     <ul>
       <li>Skriv inn lenken i tekstfeltet.</li>
       <li>Velg forgrunns- og bakgrunnsfarge.</li>
+      <li>Valgfritt: Velg en logo-fil for å plassere i midten.</li>
       <li>Klikk <em>"Generer QR-kode"</em> for forhåndsvisning.</li>
-      <li>Klikk <em>"Lagre QR-kode"</em> for å lagre som PNG.</li>
+      <li>Klikk <em>"Lagre QR-kode"</em> og velg ønsket filformat (PNG, JPG, SVG).</li>
     </ul>
   </li>
 </ol>
 
 <hr>
 
+<h2>🖼 Skjermbilde</h2>
+<p>
+  <em>Legg til et skjermbilde her:</em><br>
+  <img src="screenshot.png" alt="QR-kode Generator skjermbilde" width="400">
+</p>
 
+<hr>
+
+<h2>📜 Lisens</h2>
+<p>
+  Dette prosjektet er lisensiert under <strong>MIT-lisensen</strong> – se <a href="LICENSE">LICENSE</a> for detaljer.
+</p>
+
+<hr>
+
+<h2>💡 Fremtidige forbedringer</h2>
+<ul>
+  <li>Mulighet for å generere QR-koder med gradientfarger.</li>
+  <li>Direkte QR-skanning i appen.</li>
+  <li>Batch-generering av flere QR-koder samtidig.</li>
+</ul>
